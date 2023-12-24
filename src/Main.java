@@ -1,9 +1,8 @@
 import models.Point;
 import models.Shape;
-
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class Main {
@@ -16,7 +15,7 @@ public class Main {
         while (sc.hasNext()) {
             double x = sc.nextDouble();
             double y = sc.nextDouble();
-            System.out.println(shape.distance());
+//            System.out.println(shape.distance());
             Point point = new Point(x, y);
 //            System.out.println(point.distanceTo(points.get(i)));
 
@@ -24,9 +23,9 @@ public class Main {
 
         }
 
-        System.out.println(shape.calculatePerimeter());
-        System.out.println(shape.getLongestSide());
-        System.out.println(shape.getAverageSide());
+        System.out.println("Perimetr= "+shape.calculatePerimeter());
+        System.out.println("The longest side= "+shape.getLongestSide());
+        System.out.println("Average side= "+shape.getAverageSide());
 
     }
 }

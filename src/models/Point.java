@@ -3,14 +3,16 @@ package models;
 public class Point {
     private double x;
     private double y;
+    private double xs;
+    private double ys;
 
     // constructor having both parameters
     public Point(double x, double y){
         this.x=x;
         this.y=y;
         System.out.println(toString());
-
     }
+
     // distance(Point dest) - distance from current point to the dest point
 
     public double distanceTo(Point dest){

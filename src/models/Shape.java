@@ -3,10 +3,7 @@ import java.util.ArrayList;
 
 public class Shape {
     private ArrayList<Point> points;
-//    public ArrayList<Point> getNumArray() {
-//        ArrayList<Point> clone = (ArrayList<Point>) points.clone();
-//        return clone;
-//    }
+
     // Constructor to initialize a shape with an array of points
     public Shape() {
         points = new ArrayList<>();
